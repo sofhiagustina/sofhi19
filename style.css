@@ -39,6 +39,11 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky {
+    background: var(--bg-color);
 }
 
 .logo {
@@ -606,7 +611,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: red;
+    background: var(--second-bg-color) ;
     z-index: -1;
     transition: .5s;
 }
